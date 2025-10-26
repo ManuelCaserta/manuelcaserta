@@ -16,11 +16,13 @@
 - ⚙️ **GitHub Actions CI Template (Freemium)**  
   Ready-to-use workflows for linting, testing, and building on every push.
 
+- 🐳 **Docker Dev Stack (free)** – Node.js + PostgreSQL + Redis stack for full local development setups.  
+
 ---
 
 ### 🧰 Dev Environments (Pro – coming soon)
 - 🗄️ **DB Sandbox** – preconfigured PostgreSQL + Adminer environment for local testing and prototyping.  
-- 🐳 **Docker Dev Stack** – Node.js + PostgreSQL + Redis stack for full local development setups.  
+
 
 *(Pro versions will be available soon on Gumroad.)*  
 → [Check my Gumroad page](https://casertamanuel.gumroad.com/?utm_source=github&utm_medium=profile-readme&utm_campaign=devtools)
