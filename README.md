@@ -1,88 +1,102 @@
-# 👋 I'm Manuel Caserta  
-**System Fixer for small B2B SaaS & micro-agencies (48–72h blocks)**  
-I fix Stripe billing, stabilise automations, and build 1-page KPI dashboards.
+👋 I’m Manuel Caserta
 
-Most of my work happens inside real systems:  
-billing that leaks money, webhooks that create zombie states, Zapier/n8n flows that silently die, dashboards nobody trusts.
+Automation & AI Engineer | AI Agents + CRM/Workflow Systems (production-ready)
 
-This GitHub is where I share the tooling, templates and starter stacks I use to build and stabilise those systems quickly.
+I build operational systems that remove manual work across Sales, Support, and Operations.
 
----
+Most of my work lives inside real workflows:
+intake that drops leads, CRMs full of duplicates, follow-ups that don’t happen, handoffs that break, and “AI assistants” that hallucinate instead of executing.
 
-## 🔧 What I actually fix (in production)
+This GitHub is where I share the templates, patterns, and starter stacks I use to ship reliable systems fast.
 
-### **Stripe sanity**
-- dunning, retries, CAU  
-- broken upgrade/downgrade flows  
-- subscription state mismatches  
-- involuntary churn disguised as “Stripe issues”
+⚙️ What I build (in production)
+AI Agents (with guardrails)
 
-### **Operational automations**
-- Zapier / n8n / custom API workers  
-- lead → CRM → email → task flows  
-- error handling (4xx vs 5xx), retries, logging, alerts  
-- eliminating silent failures that cost MRR or leads
+intake, qualification, booking, support
 
-### **1-page KPI dashboards**
-- revenue, ops, sales/marketing, capacity  
-- strict metric definitions  
-- single source of truth across tools  
-- built for small teams who need decisions, not wallpapers
+RAG connected to real company knowledge (PDFs, Notion, docs)
 
-I do all of this in **48–72h fixed-scope blocks**, not open-ended projects.
+logging, traceability, and human handoff
 
----
+“execute work”, not “chat”
 
-## 🧰 Open tooling I use across projects
+CRM & workflow automation
 
-These repos exist because I rebuild a lot of the same operational scaffolding for clients.
+lead capture → CRM → routing → tasks → follow-up
 
-### **Stripe / Billing**
-- starter workers for webhook → fetch-latest-state patterns  
-- demo implementations of reliable dunning + retries  
-*(coming soon)*
+deduplication, required fields, pipeline hygiene
 
-### **Automation & workflow utilities**
-- error-handling templates for Zapier/n8n  
-- structured logging + retry logic patterns  
-*(coming soon)*
+error handling, retries, alerts (no silent failures)
 
-### **Dashboards & reporting**
-- 1-page KPI layouts  
-- standardised metric definitions (MRR, churn, capacity)  
-*(coming soon)*
+integrations via APIs/webhooks
 
-### **JavaScript / TypeScript tooling (legacy but still useful)**
-These come from my old “tooling builder” positioning. Keeping them public for devs who need them:
-- ESLint + Prettier Pack  
-- TSConfig Pack for modular apps  
-- GitHub Actions CI templates  
-- Docker dev stacks
+Operational reporting
 
----
+KPI pipelines that teams can trust
 
-## 📡 What I’m currently working on
-- more Stripe sanity templates (dunning + retries + CAU)  
-- stable webhook workers for small SaaS stacks  
-- deterministic lead → CRM → email flows for micro-agencies  
-- a clean, repeatable 1-page KPI dashboard system
+clean metric definitions + single source of truth
 
-If you're running a small SaaS or agency and need your billing, automations or KPIs to stop lying to you, this is the work I do.
+dashboards built for decisions, not decoration
 
----
+🧱 Building blocks you’ll find here
 
-## 🤝 Work with me
-I help founders and small teams fix their operational systems fast.
+These repos exist because I rebuild the same operational scaffolding across projects.
 
-**Stripe Sanity + Fix Express**  
-**Lead → CRM → Email → Task Automation**  
-**1-Page KPI Dashboard**  
-**Mini Audit (15 minutes, diagnostic only)**
+Agentic RAG / Knowledge
 
-Always in 48–72h blocks.  
-No endless projects. No surprises.
+RAG templates: chunking, retrieval, reranking patterns
 
----
+doc + data Q&A (PDF + structured data)
+(planned / WIP)
 
-### ⭐ If something here helps you, feel free to use it.  
-If you need your system fixed, DM me on LinkedIn.
+Automation patterns
+
+n8n workflow templates
+
+retries, idempotency, structured logging
+
+webhook handling patterns
+(planned / WIP)
+
+CRM utilities
+
+data hygiene helpers (dedupe, enrichment, normalization)
+
+routing rules + workflow orchestration patterns
+(planned / WIP)
+
+Infrastructure & tooling (legacy but useful)
+
+CI templates, TS tooling, dev stacks
+
+kept public for reuse
+
+🔬 What I’m working on now
+
+production templates for AI Agents (intake → CRM → action)
+
+RAG for PDFs + spreadsheets (real analysis, not “chat over text”)
+
+n8n patterns for reliable automations (alerts, retries, audit logs)
+
+a clean “Operational Audit” checklist for Sales & Ops systems
+
+🤝 Work with me
+
+If you need systems that run in production, not demos, I can help.
+
+Typical projects:
+
+AI Agent for intake/qualification/booking (CRM-integrated)
+
+CRM workflow automation (routing, follow-ups, handoffs)
+
+Operational reporting/KPI pipelines
+
+If it’s not a fit, I’ll tell you fast.
+
+DM me on LinkedIn.
+
+⭐ If something here helps you, use it.
+
+No attribution required. Just ship.
